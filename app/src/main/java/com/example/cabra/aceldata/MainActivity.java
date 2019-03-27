@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                         Toast.makeText(getApplicationContext(),"A gravar...",Toast.LENGTH_SHORT).show();
 
                     } else {
-                        xAcelValue.setText("Acelerómetro não suportado");
+                        xAcelValue.setText(getString(R.string.not_supported));
                         yAcelValue.setText("Acelerómetro não suportado");
                         zAcelValue.setText("Acelerómetro não suportado");
                     }

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AcelData</string>
+    <string name="not_supported">Acelerómetro não suportado</string>
 </resources>
